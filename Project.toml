@@ -37,7 +37,7 @@ Extents = "0.1"
 GeoInterfaceMakie = "0.1"
 GeometryOps = "0.1"
 Interpolations = "0.14, 0.15"
-JLD2 = "0.4"
+JLD2 = "0.4, 0.5"
 Measures = "0.3"
 NCDatasets = "0.14"
 Rotations = "1"
@@ -49,8 +49,8 @@ VoronoiCells = "0.4"
 julia = "1.9"
 
 [extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 LibGEOS = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["LibGEOS", "Test"]
