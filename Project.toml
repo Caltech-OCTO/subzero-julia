@@ -31,7 +31,7 @@ GeoInterfaceMakie = "0edc0954-3250-4c18-859d-ec71c1660c08"
 SubzeroMakieExt = ["CairoMakie", "GeoInterfaceMakie"]
 
 [compat]
-CairoMakie = "0.12"
+CairoMakie = "0.12, 0.13"
 CoordinateTransformations = "0.6"
 Extents = "0.1"
 GeoInterfaceMakie = "0.1"
@@ -49,8 +49,8 @@ VoronoiCells = "0.4"
 julia = "1.9"
 
 [extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 LibGEOS = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["LibGEOS", "Test"]
